@@ -1,0 +1,38 @@
+<div class="container">
+    <div class="title-container">
+        <div class="title">8 BALL GAME</div>
+        <div class="title-image"><img class="image" src="assets/img/8gamepool.png"/></div>
+    </div>
+    <div class="table-container">
+        <div class="message">{{!winner.status ? 'Players' : 'The Winner is:'}}
+            <ul *ngIf="!winner.status">
+                <li *ngFor="let player of data.config.players" [style.color]="player.color">
+                    {{player.name}}
+                </li>
+            </ul>
+            <div class="winner" *ngIf="winner.status" @fadeIn>
+                <span>{{winner.name}}</span> 
+                <img src="assets/img/cup.png" />
+            </div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th *ngFor="let step of data.match; let i = index">{{i+1}}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let pocket of data.config.pockets">
+                        <td>{{pocket.id}}</td>
+                        <td *ngFor="let timestamp of data.sortedTimestamp"
+                            [style.color]="getBallColor(data.timestamps[timestamp])">
+                            {{getBallNumber(pocket.id,data.timestamps[timestamp])}}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="winner-container">
+            <button (click)="getWinner()" class="button">get winner</button>
+        </div>
+    </div>

@@ -1,0 +1,135 @@
+{
+    "response": 200,
+    "data": {
+        "pockets": [
+            {
+                "id": "topRight"
+            },
+            {
+                "id": "centerRight"
+            },
+            {
+                "id": "bottomRight"
+            },
+            {
+                "id": "topLeft"
+            },
+            {
+                "id": "centerLeft"
+            },
+            {
+                "id": "bottomLeft"
+            }
+        ],
+        "balls": [
+            {
+                "id": "ball1",
+                "color": "gold",
+                "type": "spot",
+                "size": 47.6
+            },
+            {
+                "id": "ball2",
+                "color": "blue",
+                "type": "spot",
+                "size": 47.6
+            },
+            {
+                "id": "ball3",
+                "color": "red",
+                "type": "spot",
+                "size": 47.6
+            },
+            {
+                "id": "ball4",
+                "color": "purple",
+                "type": "spot",
+                "size": 47.6
+            },
+            {
+                "id": "ball5",
+                "color": "orange",
+                "type": "spot",
+                "size": 47.6
+            },
+            {
+                "id": "ball6",
+                "color": "green",
+                "type": "spot",
+                "size": 47.6
+            },
+            {
+                "id": "ball7",
+                "color": "brown",
+                "type": "spot",
+                "size": 47.6
+            },
+            {
+                "id": "ball8",
+                "color": "black",
+                "type": "black-ball",
+                "size": 47.6
+            },
+            {
+                "id": "ball9",
+                "color": "yellow",
+                "type": "stripe",
+                "size": 47.6
+            },
+            {
+                "id": "ball10",
+                "color": "blue",
+                "type": "stripe",
+                "size": 47.6
+            },
+            {
+                "id": "ball11",
+                "color": "red",
+                "type": "stripe",
+                "size": 47.6
+            },
+            {
+                "id": "ball12",
+                "color": "purple",
+                "type": "stripe",
+                "size": 47.6
+            },
+            {
+                "id": "ball13",
+                "color": "orange",
+                "type": "stripe",
+                "size": 47.6
+            },
+            {
+                "id": "ball14",
+                "color": "green",
+                "type": "stripe",
+                "size": 47.6
+            },
+            {
+                "id": "ball15",
+                "color": "brown",
+                "type": "stripe",
+                "size": 47.6
+            },
+            {
+                "id": "cueBall",
+                "color": "white",
+                "type": "cue-ball",
+                "size": 47.6
+            }    
+        ],
+        "players": [
+            {
+                "id": "mario",
+                "name": "Mario",
+                "color": "brown"
+            },
+            {
+                "id": "luigi",
+                "name": "Luigi",
+                "color": "green"
+            }
+        ]
+    }
+}

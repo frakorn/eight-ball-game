@@ -1,0 +1,70 @@
+.table {
+	border: solid 1px #bfbfbf;
+	border-collapse: collapse;
+	border-spacing: 0;
+	font: normal 14px sans-serif;
+	thead {
+		th {
+			background-color: #f0f0f0;
+			border: solid 1px #bfbfbf;
+			color: #333;
+			padding: 10px;
+			text-align: left;
+			padding: 10px 16px;
+			line-height: 20px;
+			vertical-align: middle;
+			border-bottom: solid 2px #bfbfbf;
+		}
+	}
+	tbody {
+		td {
+			border: solid 1px #f0f0f0;
+			color: #333;
+			padding: 10px;
+			text-align: center;
+		}
+		background-color: white;
+	}
+}
+.container {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.message {
+	font-family: 'Gameplay', sans-serif;
+	font-size: 14px;
+}
+.winner-container {
+	margin-top: 10px;
+}
+.winner {
+	font-size: 16px;
+	font-family: 'Gameplay', sans-serif;
+	color: green;
+	margin: 10px;
+}
+.title {
+	text-align: center;
+	font-size: 22px;
+	font-family: 'Gameplay', sans-serif;
+	margin: 10px;
+	color: black;
+	text-shadow: -1px 0 grey, 0 2px #ccc, 2px 0 grey, 0 -1px #ccc;
+}
+.button {
+	background-color: #ffffff;
+	border: 2px solid black;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	font-family: 'Gameplay', sans-serif;
+	&:hover {
+		background-color: azure;
+		color: rgb(32,138,15);
+	}
+}
